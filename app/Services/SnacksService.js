@@ -1,5 +1,5 @@
 import { ProxyState } from "../AppState.js";
-import Snacks from "../Models/Snacks.js";
+import Snack from "../Models/Snacks.js";
 
 
 class SnacksService {

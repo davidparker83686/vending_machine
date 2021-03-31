@@ -8,11 +8,10 @@ import { isValidProp } from "./Utils/isValidProp.js"
 //  const funions = new Snack('Funions',.75,'08370');
 
 class AppState extends EventEmitter {
-  cheetos = new Snack('Cheetos',1,'42069');
-  sunchips = new Snack('SunChips',1.25,'19918');
-  funions = new Snack('Funions',.75,'08370');
-
   totalMoney=0
+
+  snack=[new Snack('Cheetos',1,'42069'),new Snack('SunChips',1.25,'19918'),new Snack('Funions',.75,'08370')]
+
 }
 
 
