@@ -1,12 +1,9 @@
 import { ProxyState } from "../AppState.js";
-import Snack from "../Models/Snacks.js";
+import Snack from "../Models/Snack.js";
 
 
 class SnacksService {
-  addValue() {
-    ProxyState.totalMoney+= .25
-    console.log(ProxyState.totalMoney)
-  }
+
   purchase() {
       if(ProxyState.totalmoney>=this.price){
         console.log('purchased')

@@ -1,5 +1,5 @@
 import { ProxyState } from "../AppState.js";
-import { snacksService } from "../Services/SnacksService.js";
+import { moneysService } from "../Services/MoneysService.js";
 
 
 //Private
@@ -11,10 +11,10 @@ function _draw(){
 
 
 
-export default class SnacksController {
+export default class MoneysController {
 
-  purchase() {
-    snacksService.purchase()
+  addMoney() {
+    MoneysService.addMoney()
   }
 
 }
